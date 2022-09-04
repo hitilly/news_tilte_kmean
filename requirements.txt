@@ -1,0 +1,4 @@
+pandas
+
+#(Optional) For tests
+nose

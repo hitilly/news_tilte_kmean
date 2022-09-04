@@ -1,0 +1,11 @@
+## Note: Default packages are good enough to run inference. 
+
+#(Optional) For tests
+nose
+
+## word2vec related packates
+pandas
+openpyxl 
+jupyterlab
+gensim
+opencc-python-reimplemented
