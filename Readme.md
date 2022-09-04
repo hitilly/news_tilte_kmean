@@ -12,7 +12,9 @@
 - 輸入kmean模型   
 - 依照輪廓分數決定類別數   
    - 聚类结果的轮廓系数的取值在【-1,1】之间，值越大，说明同类样本相距约近，不同样本相距越远，则聚类效果越好. 
-
+   - https://blog.csdn.net/maple05/article/details/110454075
+   - https://zhuanlan.zhihu.com/p/51777857
+   - 
 ## run:
 (1) Init: 
 pip install -r requirements.txt（未更新）
@@ -60,9 +62,15 @@ company_title_cluster_findk_test.csv
 
 ## update
 1.使用金融向量
+ - https://github.com/Embedding/Chinese-Word-Vectors
 2.斷詞優化
 3.模型優化
-       
+ - nltk kmean
+   - 無法使用輪廓係數計算聚類數量   
+   - http://cobweb.cs.uga.edu/~jam/scalation_1.5/scalation_modeling/target/scala-2.12/api/scalation/analytics/clusterer/KMeansClusterer.html
+   - https://stackoverflow.com/questions/59549953/get-inertia-for-nltk-k-means-clustering-using-cosine-similarity
+ - lda
+    - https://github.com/YangBin1729/nlp_notes/blob/master/06-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/09-LDA%E4%B8%BB%E9%A2%98%E6%A8%A1%E5%9E%8B.ipynb       
        
  https://tedboy.github.io/nlps/generated/nltk.cluster.html
  。
