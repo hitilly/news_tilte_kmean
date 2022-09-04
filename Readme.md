@@ -13,7 +13,7 @@
 - 依照輪廓分數決定類別數   
    - 聚类结果的轮廓系数的取值在【-1,1】之间，值越大，说明同类样本相距约近，不同样本相距越远，则聚类效果越好. 
 
-## Quick Start:
+## run:
 (1) Init: 
 pip install -r requirements.txt（未更新）
 
@@ -23,7 +23,7 @@ python kmean_findk_3.py
 
 ## output
 
-(1)新聞聚類結果
+(1) 新聞聚類結果
 company_title_cluster_findk.csv
 
 ,company,    Title,                                  cluster
@@ -43,7 +43,7 @@ company_title_cluster_findk.csv
 2,中華電,《美股掃瞄》內外夾擊 美股重挫、費半崩跌近4%(2-2) - 中時新聞網 Chinatimes.com,0  
 3,中華電,《美股掃瞄》內外夾擊 美股重挫、費半崩跌近4%(2-2) - 中時新聞網 Chinatimes.com,0  
 
-(2)測試結果
+(2) 測試結果
 company_title_cluster_findk_test.csv
 ,company,      Title,                           cluster  
 4,aa,4張台積電全賣！「虧損130萬元」認賠出場　他PO畢業文：專心工作,0  
