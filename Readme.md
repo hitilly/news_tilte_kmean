@@ -63,8 +63,8 @@ company_title_cluster_findk_test.csv
 ## update
 1.使用金融向量
  - https://github.com/Embedding/Chinese-Word-Vectors
-2.斷詞優化
-3.模型優化
+2.斷詞優化  
+3.模型優化  
  - nltk kmean
    - 無法使用輪廓係數計算聚類數量   
    - http://cobweb.cs.uga.edu/~jam/scalation_1.5/scalation_modeling/target/scala-2.12/api/scalation/analytics/clusterer/KMeansClusterer.html
